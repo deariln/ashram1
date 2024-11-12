@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;
 }
-
+/* body {
+  padding: 20px;
+} */
 nav {
   display: flex;
   align-items: center;
@@ -69,7 +71,7 @@ nav {
 #buttonpic1 {
   color: black;
   background-color: aliceblue;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 8px;
   font-size: 15px;
 }
@@ -77,7 +79,7 @@ nav {
 #buttonpic2 {
   color: white;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 8px;
   font-size: 15px;
 }
@@ -88,7 +90,7 @@ nav {
 
 #service {
 font-size: 20px;
-margin-top: 30px;
+padding: 20px;
 background-color: rgba(245, 245, 245, 0.808);
 }
 
@@ -96,8 +98,51 @@ background-color: rgba(245, 245, 245, 0.808);
 margin-bottom: 15px;
 }
 
-.icons {
+.icons{
+  padding: 10px 20px;
   display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.icons img {
+  width: 50px;
+  height: 50px;
+}
 
+.icons p {
+  color: rgb(53, 53, 53);
+}
+
+
+.places {
+ padding: 20px;
+ font-size: 20px;
+ color: black;
+ background-color: rgba(245, 245, 245, 0.808);
+}
+ 
+.h3 {
+  color: black;
+  font-size: 30px;
+}
+
+.h4 {
+  color: black;
+}
+
+.cabs {
+  padding: 20px;
+  font-size: 20px;
+  gap: 20px;
+  color: rgb(85, 85, 85);
+}
+
+.button-places {
+  color: black;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
 }
 
