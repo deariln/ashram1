@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+
 /* body {
   padding: 20px;
 } */
@@ -55,7 +56,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 .text {
@@ -89,73 +90,84 @@ nav {
 }
 
 #service {
-font-size: 25px;
-padding: 20px;
-color: gray;
+  font-size: 25px;
+  padding: 20px;
+  color: gray;
 }
 
-.p-service{
+.p-service {
   color: rgb(126, 126, 126);
   text-align: center;
   padding: 8px;
   font-size: 30px;
 }
 
+.box-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .h2 {
-margin-bottom: 15px;
-font-size: 40px;
-color: black;
-text-align: center;
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: black;
+  text-align: center;
 }
 
 
 .card {
-  background-color: rgb(203, 236, 176);
+  background-color: rgb(255, 255, 255);
   width: 300px;
   height: 100px;
   border-radius: 20px;
   padding: 20px;
-  position: relative;
-  left: 100px;
-  margin: 20px;
   display: flex;
-  float: left;
- 
+  align-items: center;
+  gap: 20px;
+  position: relative;
 }
 
+.cabs{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
 
 .img-icons {
-  border-radius: 11px;
+  background-color: rgb(201, 255, 222);
+  border-radius: 50px;
+  padding: 15px;
   width: 40px;
   height: 40px;
+  position: absolute;
+  left: -30px;
 }
 
 
 .text-p {
   font-size: 20px;
   font-weight: 300;
-  margin-top: 20px;
-  text-align: right;
+  text-align: center;
+  padding-left: 30px;
 }
 
 
-
-.card-places{
-  background-color: rgb(247, 252, 179);
-  width: 500px;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 10px 10px 40px bisque;
-  margin: auto;
-  text-align: center;
+.card-places {
+  width: 50%;
+  background-color: white;
   display: flex;
-  background-image: url(/photo/mainlogo.jpg);
+  /* background-image: url(/photo/mainlogo.jpg); */
 }
 
 .title-places {
-  margin-top: 20px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -167,14 +179,13 @@ text-align: center;
 }
 
 .places {
-  margin-top: 600px;
   font-size: 25px;
-  padding: 20px;
+  padding: 20px 100px;
   color: gray;
   text-align: center;
-  background-color: beige;
+  
 }
- 
+
 .title-places {
   margin-bottom: 15px;
   font-size: 40px;
@@ -183,23 +194,35 @@ text-align: center;
 }
 
 
+
 .h3 {
   margin-bottom: 15px;
- font-size: 40px;
- color: black;
- text-align: center;
+  font-size: 40px;
+  color: black;
+  text-align: center;
 }
 
 .button-card {
- margin-top: 20px;
- text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .button-place {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   padding: 7px 12px;
   text-decoration: none;
   color: rgb(0, 0, 0);
   border-radius: 20px;
- font-size: 18px;
+  font-size: 15px;
+}
+.photo-text-box {
+  display: flex;
+  align-items: stretch;
+  
+}
+.photo-img{
+  width: 50%;
+}
+.photo-img img {
+  width: 100%;
 }
