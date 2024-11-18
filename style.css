@@ -49,7 +49,7 @@ nav {
   } */
 
 #textpic {
-  background-image: url(/photo/main.jpg);
+  background-image: url(/photo/ashram-1.jpg);
   height: 88vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +141,7 @@ nav {
 }
 
 .img-icons {
-  background-color: rgb(201, 255, 222);
+  background-color: rgb(226, 226, 226);
   border-radius: 50px;
   padding: 15px;
   width: 40px;
@@ -208,12 +208,11 @@ nav {
 }
 
 .button-place {
-  background-color: white;
-  padding: 7px 12px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(70, 70, 70);
+  background: transparent;
   border-radius: 20px;
-  font-size: 15px;
+  padding: 8px;
+  font-size: 18px;
 }
 .photo-text-box {
   display: flex;
@@ -226,3 +225,150 @@ nav {
 .photo-img img {
   width: 100%;
 }
+
+.icon {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  margin: 8px;
+  font-size: 23px;
+}
+
+.img-qestions {
+  /* background-color: rgb(201, 255, 222); */
+  border-radius: 30px;
+  
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1650px;
+}
+
+.places-question {
+  padding: 50px;
+}
+.qestion {
+  padding: 10px;
+  background-color: rgb(206, 206, 206);
+}
+
+.photo-g {
+  width: 100%;
+	height: auto;
+  padding: auto;
+}
+
+.photo-gallery{
+  text-align: center;
+	margin: 0 0 20px 0;
+	overflow: hidden;    
+}
+
+.photo-gallery a {
+  width: 50%;
+	display: block;
+	float: left;
+	line-height: 0;
+}
+
+.hall {
+  text-align: left;
+  background-color:rgb(255, 255, 255) ;
+  color: rgb(94, 94, 94);
+  padding: 15px;
+}
+
+.hall-div {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.h4 {
+  font-size: 30px;
+  font-weight: 200;
+  color: black;
+}
+
+.hall-button {
+  color: rgb(70, 70, 70);
+  background: transparent;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.hall-1 {
+  padding: 70px;
+}
+
+.ul-hall {
+  list-style: none;
+}
+
+.h5 {
+  font-size: 38px;
+  text-align: center;
+  padding: 20px;
+}
+
+.h6 {
+  font-size: 38px;
+  text-align: center;
+  padding: 20px;
+}
+
+.p-hall {
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.map {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  flex-direction: column;
+}
+
+.h1-map {
+  font-size: 38px;
+  text-align: center;
+  padding: 20px;
+}
+
+.h2-map {
+  color: rgb(70, 70, 70);
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+iframe {
+  width: 70vw;
+  height: 60vh;
+}
+
+/* .howtogettous {
+  background-image: url(/photo/ashram-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* .map-button {
+  color: rgb(70, 70, 70);
+  background: transparent;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 18px;
+} */
+
+
+.answers-page {
+  padding: 50px;
+}
+
