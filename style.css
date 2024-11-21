@@ -20,6 +20,9 @@ nav {
   background-color: white;
   display: flex;
   gap: 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 #navbar a {
@@ -27,7 +30,7 @@ nav {
   color: rgb(0, 0, 0);
   text-align: center;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 200;
   font-size: large;
 }
 
@@ -35,13 +38,21 @@ nav {
 #logo {
   display: flex;
   width: 140px;
-
 }
 
 .img-list {
   width: 40px;
 }
 
+
+.button-contact {
+  color: rgb(0, 0, 0);
+  background: gainsboro;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 17px;
+  border: 1px white;
+}
 /* 
   #main-logo {
     background-position: center;
@@ -60,30 +71,31 @@ nav {
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
-
+  justify-content: start;
+  padding: 20px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* background-color: black; */
+  justify-content: right;
   color: aliceblue;
-  font-size: 25px;
+  font-size: 40px;
   gap: 25px;
+  color: rgb(49, 49, 49);
 }
 
 #buttonpic1 {
-  color: black;
-  background-color: aliceblue;
+  color: rgb(70, 70, 70);
+  background: transparent;
   border-radius: 20px;
   padding: 8px;
   font-size: 18px;
 }
 
 #buttonpic2 {
-  color: white;
+  color: rgb(70, 70, 70);
   background: transparent;
   border-radius: 20px;
   padding: 8px;
@@ -382,3 +394,33 @@ gap:100px;
   padding: 50px;
 }
 
+
+
+.h1-rules {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.p-rules {
+  color: rgb(78, 78, 78);
+  font-size: 20px;
+  text-align: center;
+}
+
+.rules-button {
+  color: rgb(70, 70, 70);
+  background: transparent;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 18px;
+  
+}
+.rules {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
