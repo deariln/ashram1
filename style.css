@@ -4,6 +4,8 @@
   /* font-family: "Lato", sans-serif; */
 }
 
+
+
 /* body {
   padding: 20px;
 } */
@@ -59,12 +61,11 @@ nav {
 .text {
   display: flex;
   flex-direction: column;
-  /* background-color: black; */
   justify-content: center;
-  color: aliceblue;
-  font-size: 40px;
+  text-align: center;
+  font-size: 45px;
   gap: 25px;
-  color: rgb(49, 49, 49);
+  color: rgb(0, 0, 0);
 }
 
 #buttonpic1 {
@@ -73,6 +74,7 @@ nav {
   border-radius: 20px;
   padding: 8px;
   font-size: 18px;
+  width: 220px;
 }
 
 #buttonpic2 {
@@ -81,10 +83,12 @@ nav {
   border-radius: 20px;
   padding: 8px;
   font-size: 18px;
+  width: 220px;
 }
 
 .h1 {
   font-size: 55px;
+  font-weight: 800;
 }
 
 #service {
@@ -324,16 +328,16 @@ nav {
 }
 
 .map {
-  width: 100%;
+  /* width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
    align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 .h1-map {
-  font-size: 38px;
+  font-size: 35px;
   text-align: center;
   padding: 20px;
 }
@@ -341,17 +345,17 @@ nav {
 .h2-map {
   color: rgb(70, 70, 70);
   font-size: 20px;
-  margin-bottom: 20px;
 }
 
 iframe {
-  width: 50vw;
-  height: 60vh;
+  width: 30vw;
+  height: 30vh;
 }
 
 .map-div{
   display: flex;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
   gap: 100px;
 }
 .answers-page {
@@ -382,6 +386,13 @@ iframe {
   border-radius: 20px;
   padding: 8px;
   font-size: 18px;
+  width: 500px;
+}
+.button-rules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }
 .rules {
   display: flex;
@@ -389,18 +400,21 @@ iframe {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
-  background-image: url(/photo/ashram-3.jpg);
+
+  /* background-image: url(/photo/ashram-3.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .cab1 {
   padding: 20px;
 }
-
+.head-cab1{
+  text-align: center;
+}
 
 .h1-cab1{
-  font-size: 30px;
+  font-size: 26px;
+  color: rgb(46, 46, 46);
 }
 .p-cab1 {
   font-size: 25px;
@@ -434,3 +448,42 @@ iframe {
 .sec-contacts {
   background-color: rgb(255, 255, 255);
 }
+
+.but-cab{
+  color: rgb(70, 70, 70);
+  background: transparent;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 18px;
+  width: 180px;
+}
+
+.button-cab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-div {
+ text-align: left;
+ padding: 20px;
+}
+
+.h-map{
+  font-size: 20px;
+}
+/* .frame {
+  display: flex;
+  justify-content: left;
+   align-items: end;
+  flex-direction: column; 
+  padding: 20px;
+} */
+.sec-contacts {
+  background-color: gainsboro;
+}
+/* .ashram-map {
+  width: 200px;
+  display: flex;
+  align-items: start;
+} */
